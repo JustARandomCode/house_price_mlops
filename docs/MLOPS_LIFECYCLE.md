@@ -1,5 +1,6 @@
 # MLOps Lifecycle - House Price Prediction
 
+
 **Project:** Predict house sale price (INR lakhs) from area, bedrooms, bathrooms, age and location.
 **Type:** Supervised regression. **Business goal:** price estimate within 10% of the true value for at least 70% of listings.
 
@@ -66,3 +67,8 @@
 | Metrics             | Validation       | `metrics/metrics.json`   |
 | Docker image        | Deployment       | registry                 |
 | Drift report        | Monitoring       | `monitoring/reports/`    |
+
+Common errors
+• master instead of main: git branch -M main.
+• refusing to merge unrelated histories: the GitHub repo was created with a README. Recreate it empty.
+• Merge shows no merge commit: you forgot --no-ff.
